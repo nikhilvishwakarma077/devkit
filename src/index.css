@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+@keyframes float {
+    0%,100%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-8px);
+    }
+}
+
+@keyframes pulseGlow {
+    0%,100%{
+        opacity:.3;
+        transform:scale(1);
+    }
+    50%{
+        opacity:1;
+        transform:scale(1.25);
+    }
+}
+
+@keyframes shine {
+    from{
+        transform:translateX(-120%);
+    }
+    to{
+        transform:translateX(220%);
+    }
+}
