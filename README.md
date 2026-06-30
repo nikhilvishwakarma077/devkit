@@ -1,16 +1,153 @@
-# React + Vite
+# 🚀 DevKit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern all-in-one developer toolkit built with React, Vite, and Tailwind CSS that combines essential productivity utilities into a fast, responsive, and developer-friendly web application. DevKit helps developers perform common development tasks without switching between multiple websites or tools.
 
-Currently, two official plugins are available:
+> Designed for speed, clean UI, and everyday developer productivity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://devkit-one-lac.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ✨ Features
+
+- Lightning-fast Vite application
+- Modern responsive UI
+- Mobile-first responsive design
+- One-click copy functionality
+- Client-side processing (where applicable)
+- Optimized production build
+- Reusable component architecture
+- Clean and scalable folder structure
+
+### Included Developer Tools
+
+- JSON Formatter
+- UUID Generator
+- Password Generator
+- Timestamp Converter
+- Text Case Converter
+- Color Palette Generator
+- And Word Counter
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- React Router
+- React Icons
+- React Hot Toast
+
+## Deployment
+
+- Vercel
+
+---
+
+# 🏗 Architecture Overview
+
+```
+
+Browser
+    │
+    ▼
+React + Vite
+    │
+    ▼
+React Router
+    │
+    ▼
+Tool Pages
+    │
+    ▼
+Reusable Components
+    │
+    ▼
+Utility Functions
+    │
+    ▼
+Instant Client-side Processing
+
+```
+
+The application follows a modular architecture where every tool is isolated, reusable, and easy to extend. Shared UI components and utility functions reduce duplication while keeping the codebase maintainable.
+
+---
+
+# 📸 Screenshots
+
+## Home
+
+![Home page](home.png)
+
+---
+
+## Tool Dashboard
+
+![Tools page](tools.png)
+
+---
+
+## Example Tool
+
+![JSON Formatter](json.png)
+
+---
+
+
+---
+
+# 📖 API Documentation
+
+This project is completely frontend-based.
+
+All developer tools execute directly in the browser without requiring a backend server.
+
+No external API is required for the core functionality.
+
+---
+
+# 🚀 Future Improvements
+
+- Additional developer utilities
+- History for previously generated results
+- Import / Export support
+- Keyboard shortcuts
+- Favorites system
+- Tool search improvements
+- Accessibility enhancements
+
+---
+
+# 📄 License
+
+MIT License
+
+---
+
+# 👨‍💻 Author
+
+Nikhil Vishwakarma
+
+[Portfolio](https://portfolio-nikhil077.vercel.app/)
+
+[GitHub](https://github.com/nikhilvishwakarma077)
+
+[LinkedIn](https://www.linkedin.com/in/nikhil-vishwakarma-874776376)
+
+nikhilvishwakarma7707@gmail.com
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star.
